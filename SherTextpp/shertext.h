@@ -44,6 +44,8 @@ private slots:
 
     void on_actionCristal_icons_Github_triggered();
 
+    void on_actionQuit_triggered();
+
 private:
     Ui::shertext *ui;
     QString FilePath;

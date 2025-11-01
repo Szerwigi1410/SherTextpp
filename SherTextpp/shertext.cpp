@@ -149,3 +149,9 @@ void shertext::on_actionCristal_icons_Github_triggered()
     QDesktopServices::openUrl(QUrl("https://github.com/dangvd/crystal-remix-icon-theme"));
 }
 
+
+void shertext::on_actionQuit_triggered()
+{
+    QApplication::quit();
+}
+

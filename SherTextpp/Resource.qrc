@@ -10,5 +10,6 @@
         <file>icons/copy.png</file>
         <file>icons/about.png</file>
         <file>icons/paste.png</file>
+        <file>icons/system-shutdown.png</file>
     </qresource>
 </RCC>

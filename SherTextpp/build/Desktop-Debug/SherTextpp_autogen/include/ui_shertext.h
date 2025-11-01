@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtGui/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
@@ -38,6 +39,7 @@ public:
     QAction *actionLicense;
     QAction *actionSherText_Github;
     QAction *actionCristal_icons_Github;
+    QAction *actionQuit;
     QWidget *centralwidget;
     QHBoxLayout *horizontalLayout;
     QTextEdit *textEdit;
@@ -52,62 +54,69 @@ public:
         if (shertext->objectName().isEmpty())
             shertext->setObjectName("shertext");
         shertext->resize(814, 649);
+        QIcon icon(QIcon::fromTheme(QIcon::ThemeIcon::DriveOptical));
+        shertext->setWindowIcon(icon);
         actionNew = new QAction(shertext);
         actionNew->setObjectName("actionNew");
-        QIcon icon;
-        icon.addFile(QString::fromUtf8(":/rec/icons/new.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionNew->setIcon(icon);
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/rec/icons/new.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionNew->setIcon(icon1);
         actionOpen = new QAction(shertext);
         actionOpen->setObjectName("actionOpen");
-        QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/rec/icons/open.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionOpen->setIcon(icon1);
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/rec/icons/open.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionOpen->setIcon(icon2);
         actionSave = new QAction(shertext);
         actionSave->setObjectName("actionSave");
-        QIcon icon2;
-        icon2.addFile(QString::fromUtf8(":/rec/icons/save.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionSave->setIcon(icon2);
+        QIcon icon3;
+        icon3.addFile(QString::fromUtf8(":/rec/icons/save.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionSave->setIcon(icon3);
         actionAbout_SherText = new QAction(shertext);
         actionAbout_SherText->setObjectName("actionAbout_SherText");
-        QIcon icon3;
-        icon3.addFile(QString::fromUtf8(":/rec/icons/about.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionAbout_SherText->setIcon(icon3);
+        QIcon icon4;
+        icon4.addFile(QString::fromUtf8(":/rec/icons/about.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionAbout_SherText->setIcon(icon4);
         actionSave_as = new QAction(shertext);
         actionSave_as->setObjectName("actionSave_as");
-        QIcon icon4;
-        icon4.addFile(QString::fromUtf8(":/rec/icons/save-as.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionSave_as->setIcon(icon4);
+        QIcon icon5;
+        icon5.addFile(QString::fromUtf8(":/rec/icons/save-as.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionSave_as->setIcon(icon5);
         actionCut = new QAction(shertext);
         actionCut->setObjectName("actionCut");
-        QIcon icon5;
-        icon5.addFile(QString::fromUtf8(":/rec/icons/cut.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionCut->setIcon(icon5);
+        QIcon icon6;
+        icon6.addFile(QString::fromUtf8(":/rec/icons/cut.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionCut->setIcon(icon6);
         actionCopy = new QAction(shertext);
         actionCopy->setObjectName("actionCopy");
-        QIcon icon6;
-        icon6.addFile(QString::fromUtf8(":/rec/icons/copy.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionCopy->setIcon(icon6);
+        QIcon icon7;
+        icon7.addFile(QString::fromUtf8(":/rec/icons/copy.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionCopy->setIcon(icon7);
         actionUndo = new QAction(shertext);
         actionUndo->setObjectName("actionUndo");
-        QIcon icon7;
-        icon7.addFile(QString::fromUtf8(":/rec/icons/undo.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionUndo->setIcon(icon7);
+        QIcon icon8;
+        icon8.addFile(QString::fromUtf8(":/rec/icons/undo.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionUndo->setIcon(icon8);
         actionRedo = new QAction(shertext);
         actionRedo->setObjectName("actionRedo");
-        QIcon icon8;
-        icon8.addFile(QString::fromUtf8(":/rec/icons/redo.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionRedo->setIcon(icon8);
+        QIcon icon9;
+        icon9.addFile(QString::fromUtf8(":/rec/icons/redo.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionRedo->setIcon(icon9);
         actionPaste = new QAction(shertext);
         actionPaste->setObjectName("actionPaste");
-        QIcon icon9;
-        icon9.addFile(QString::fromUtf8(":/rec/icons/paste.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        actionPaste->setIcon(icon9);
+        QIcon icon10;
+        icon10.addFile(QString::fromUtf8(":/rec/icons/paste.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionPaste->setIcon(icon10);
         actionLicense = new QAction(shertext);
         actionLicense->setObjectName("actionLicense");
         actionSherText_Github = new QAction(shertext);
         actionSherText_Github->setObjectName("actionSherText_Github");
         actionCristal_icons_Github = new QAction(shertext);
         actionCristal_icons_Github->setObjectName("actionCristal_icons_Github");
+        actionQuit = new QAction(shertext);
+        actionQuit->setObjectName("actionQuit");
+        QIcon icon11;
+        icon11.addFile(QString::fromUtf8(":/rec/icons/system-shutdown.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionQuit->setIcon(icon11);
         centralwidget = new QWidget(shertext);
         centralwidget->setObjectName("centralwidget");
         horizontalLayout = new QHBoxLayout(centralwidget);
@@ -140,6 +149,8 @@ public:
         menuFile->addSeparator();
         menuFile->addAction(actionSave);
         menuFile->addAction(actionSave_as);
+        menuFile->addSeparator();
+        menuFile->addAction(actionQuit);
         menuHelp->addAction(actionAbout_SherText);
         menuHelp->addAction(actionLicense);
         menuHelp->addSeparator();
@@ -159,7 +170,7 @@ public:
 
     void retranslateUi(QMainWindow *shertext)
     {
-        shertext->setWindowTitle(QCoreApplication::translate("shertext", "shertext", nullptr));
+        shertext->setWindowTitle(QCoreApplication::translate("shertext", "SherText", nullptr));
         actionNew->setText(QCoreApplication::translate("shertext", "New", nullptr));
 #if QT_CONFIG(shortcut)
         actionNew->setShortcut(QCoreApplication::translate("shertext", "Ctrl+N", nullptr));
@@ -203,6 +214,7 @@ public:
         actionLicense->setText(QCoreApplication::translate("shertext", "License", nullptr));
         actionSherText_Github->setText(QCoreApplication::translate("shertext", "SherText++ Github", nullptr));
         actionCristal_icons_Github->setText(QCoreApplication::translate("shertext", "Crystal icons Github", nullptr));
+        actionQuit->setText(QCoreApplication::translate("shertext", "Quit", nullptr));
         menuFile->setTitle(QCoreApplication::translate("shertext", "File", nullptr));
         menuHelp->setTitle(QCoreApplication::translate("shertext", "Help", nullptr));
         menuEdit->setTitle(QCoreApplication::translate("shertext", "Edit", nullptr));
