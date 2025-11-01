@@ -1,0 +1,287 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: FreeBSD - 14.3-RELEASE - amd64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: -DQT_QML_DEBUG
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG"
+      binary: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/local/bin/clang-scan-deps19"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_1ae23
+        [1/2] /usr/bin/clang++   -DQT_QML_DEBUG    -v -MD -MT CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        FreeBSD clang version 19.1.7 (https://github.com/llvm/llvm-project.git llvmorg-19.1.7-0-gcd708029e0b2)
+        Target: x86_64-unknown-freebsd14.3
+        Thread model: posix
+        InstalledDir: /usr/bin
+         (in-process)
+         "/usr/bin/clang++" -cc1 -triple x86_64-unknown-freebsd14.3 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG -v -fcoverage-compilation-dir=/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG -resource-dir /usr/lib/clang/19 -dependency-file CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -internal-isystem /usr/include/c++/v1 -internal-isystem /usr/lib/clang/19/include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-unknown-freebsd14.3
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/v1
+         /usr/lib/clang/19/include
+         /usr/include
+        End of search list.
+        [2/2] : && /usr/bin/clang++ -DQT_QML_DEBUG -v CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1ae23   && :
+        FreeBSD clang version 19.1.7 (https://github.com/llvm/llvm-project.git llvmorg-19.1.7-0-gcd708029e0b2)
+        Target: x86_64-unknown-freebsd14.3
+        Thread model: posix
+        InstalledDir: /usr/bin
+         "/usr/bin/ld" --eh-frame-hdr -dynamic-linker /libexec/ld-elf.so.1 --hash-style=both --enable-new-dtags -o cmTC_1ae23 /usr/lib/crt1.o /usr/lib/crti.o /usr/lib/crtbegin.o -L/usr/lib CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/crtend.o /usr/lib/crtn.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/v1]
+          add: [/usr/lib/clang/19/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/v1] ==> [/usr/include/c++/v1]
+        collapse include dir [/usr/lib/clang/19/include] ==> [/usr/lib/clang/19/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/v1;/usr/lib/clang/19/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/ninja -v cmTC_1ae23]
+        ignore line: [[1/2] /usr/bin/clang++   -DQT_QML_DEBUG    -v -MD -MT CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [FreeBSD clang version 19.1.7 (https://github.com/llvm/llvm-project.git llvmorg-19.1.7-0-gcd708029e0b2)]
+        ignore line: [Target: x86_64-unknown-freebsd14.3]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-unknown-freebsd14.3 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG -v -fcoverage-compilation-dir=/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-TjpaIG -resource-dir /usr/lib/clang/19 -dependency-file CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -internal-isystem /usr/include/c++/v1 -internal-isystem /usr/lib/clang/19/include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 19.1.7 based upon LLVM 19.1.7 default target x86_64-unknown-freebsd14.3]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/v1]
+        ignore line: [ /usr/lib/clang/19/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /usr/bin/clang++ -DQT_QML_DEBUG -v CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1ae23   && :]
+        ignore line: [FreeBSD clang version 19.1.7 (https://github.com/llvm/llvm-project.git llvmorg-19.1.7-0-gcd708029e0b2)]
+        ignore line: [Target: x86_64-unknown-freebsd14.3]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        link line: [ "/usr/bin/ld" --eh-frame-hdr -dynamic-linker /libexec/ld-elf.so.1 --hash-style=both --enable-new-dtags -o cmTC_1ae23 /usr/lib/crt1.o /usr/lib/crti.o /usr/lib/crtbegin.o -L/usr/lib CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/crtend.o /usr/lib/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/libexec/ld-elf.so.1] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1ae23] ==> ignore
+          arg [/usr/lib/crt1.o] ==> obj [/usr/lib/crt1.o]
+          arg [/usr/lib/crti.o] ==> obj [/usr/lib/crti.o]
+          arg [/usr/lib/crtbegin.o] ==> obj [/usr/lib/crtbegin.o]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [CMakeFiles/cmTC_1ae23.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/crtend.o] ==> obj [/usr/lib/crtend.o]
+          arg [/usr/lib/crtn.o] ==> obj [/usr/lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [c++;m;gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/crt1.o;/usr/lib/crti.o;/usr/lib/crtbegin.o;/usr/lib/crtend.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      LLD 19.1.7 (FreeBSD llvmorg-19.1.7-0-gcd708029e0b2-1400007) (https://github.com/llvm/llvm-project.git llvmorg-19.1.7-0-gcd708029e0b2) (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/local/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/local/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-hAnZ14"
+      binary: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-hAnZ14"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/local/bin/clang-scan-deps19"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Qt6;/usr/local/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-hAnZ14'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_61f40
+        [1/2] /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++17 -MD -MT CMakeFiles/cmTC_61f40.dir/src.cxx.o -MF CMakeFiles/cmTC_61f40.dir/src.cxx.o.d -o CMakeFiles/cmTC_61f40.dir/src.cxx.o -c /home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-hAnZ14/src.cxx
+        [2/2] : && /usr/bin/clang++ -DQT_QML_DEBUG  CMakeFiles/cmTC_61f40.dir/src.cxx.o -o cmTC_61f40   && :
+        \x1b[31mFAILED: [code=1] \x1b[0mcmTC_61f40 
+        : && /usr/bin/clang++ -DQT_QML_DEBUG  CMakeFiles/cmTC_61f40.dir/src.cxx.o -o cmTC_61f40   && :
+        ld: error: undefined symbol: pthread_create
+        >>> referenced by src.cxx
+        >>>               CMakeFiles/cmTC_61f40.dir/src.cxx.o:(main)
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "/usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/local/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/local/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-idQDVv"
+      binary: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-idQDVv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/local/bin/clang-scan-deps19"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Qt6;/usr/local/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-idQDVv'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_b6448
+        [1/2] /usr/bin/clang++   -DQT_QML_DEBUG  -std=gnu++17 -MD -MT CMakeFiles/cmTC_b6448.dir/CheckForPthreads.cxx.o -MF CMakeFiles/cmTC_b6448.dir/CheckForPthreads.cxx.o.d -o CMakeFiles/cmTC_b6448.dir/CheckForPthreads.cxx.o -c /home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-idQDVv/CheckForPthreads.cxx
+        [2/2] : && /usr/bin/clang++ -DQT_QML_DEBUG  CMakeFiles/cmTC_b6448.dir/CheckForPthreads.cxx.o -o cmTC_b6448  -pthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/local/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/local/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/usr/local/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/usr/local/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "/usr/local/lib/cmake/Qt6/Qt6Config.cmake:235 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-5EqCpg"
+      binary: "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-5EqCpg"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/local/bin/clang-scan-deps19"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Qt6;/usr/local/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/lib/cmake/Qt6/3rdparty/kwin;/usr/local/lib/cmake/Qt6;/usr/local/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/local/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-5EqCpg'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_3ed64
+        [1/2] /usr/bin/clang++ -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++17 -MD -MT CMakeFiles/cmTC_3ed64.dir/src.cxx.o -MF CMakeFiles/cmTC_3ed64.dir/src.cxx.o.d -o CMakeFiles/cmTC_3ed64.dir/src.cxx.o -c /home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-5EqCpg/src.cxx
+        [2/2] : && /usr/bin/clang++ -DQT_QML_DEBUG  CMakeFiles/cmTC_3ed64.dir/src.cxx.o -o cmTC_3ed64   && :
+        
+      exitCode: 0
+...
