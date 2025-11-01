@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen",
-	"CMAKE_BINARY_DIR" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/oliwier7/Documents/QT_stuff/SherTextpp",
+	"BUILD_DIR" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp",
 	"CMAKE_EXECUTABLE" : "/usr/local/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/oliwier7/Documents/QT_stuff/SherTextpp/CMakeLists.txt",
-		"/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake",
-		"/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeSystem.cmake",
+		"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/CMakeLists.txt",
+		"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake",
+		"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeSystem.cmake",
 		"/usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/local/share/cmake/Modules/Platform/FreeBSD-Initialize.cmake",
-		"/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeCXXCompiler.cmake",
+		"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeCXXCompiler.cmake",
 		"/usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/local/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -431,24 +431,24 @@
 		"/usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
 		"/usr/local/share/cmake/Modules/CMakeParseArguments.cmake",
 		"/usr/local/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/oliwier7/Documents/QT_stuff/SherTextpp/Resource.qrc"
+		"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/Resource.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/oliwier7/Documents/QT_stuff/SherTextpp",
+	"CMAKE_SOURCE_DIR" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/deps",
+	"DEP_FILE" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "SherTextpp_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.h",
+			"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.h",
 			"MU",
 			"EWIEGA46WW/moc_shertext.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -489,22 +489,26 @@
 		"-E",
 		"/usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/SherTextpp_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/SherTextpp_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/local/libexec/qt6/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/local/libexec/qt6/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/SherTextpp_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/SherTextpp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/oliwier7/Documents/QT_stuff/SherTextpp/main.cpp", "MU", null ],
 		[
-			"/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.cpp",
+			"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.cpp",
 			"MU",
 			null
 		]

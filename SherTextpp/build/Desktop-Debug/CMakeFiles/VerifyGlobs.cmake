@@ -3,175 +3,175 @@
 cmake_policy(SET CMP0009 NEW)
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.c++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.c++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.cc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.cc")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.ch")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.ch")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.cpp")
 set(OLD_GLOB
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/moc_shertext.cpp"
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/qrc_Resource.cpp"
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/mocs_compilation.cpp"
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/main.cpp"
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.cpp"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/moc_shertext.cpp"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/qrc_Resource.cpp"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/mocs_compilation.cpp"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/main.cpp"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.cxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.cxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.h")
 set(OLD_GLOB
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/include/ui_shertext.h"
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h"
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.h"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/include/ui_shertext.h"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.h++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.h++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.hh")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.hh")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.hpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.hpp")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.hxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.hxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.java")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.java")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.js")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.js")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.jui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.jui")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.qml")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.qml")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.qrc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.qrc")
 set(OLD_GLOB
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/Resource.qrc"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/Resource.qrc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.qs")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.qs")
 set(OLD_GLOB
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/.qtc/package-manager/maintenance_tool_provider.qs"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/.qtc/package-manager/maintenance_tool_provider.qs"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /usr/local/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/QT_stuff/SherTextpp/*.ui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/*.ui")
 set(OLD_GLOB
-  "/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.ui"
+  "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/cmake.verify_globs")
 endif()

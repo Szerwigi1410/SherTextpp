@@ -1,0 +1,561 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "SherTextpp"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"set_property",
+			"find_dependency",
+			"_qt_internal_find_third_party_dependencies",
+			"_qt_internal_find_qt_dependencies"
+		],
+		"files" : 
+		[
+			"/usr/local/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/usr/local/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"/usr/local/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"/usr/local/lib/cmake/Qt6/Qt6Config.cmake",
+			"/usr/local/share/cmake/Modules/FindOpenGL.cmake",
+			"/usr/local/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/local/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/usr/local/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/usr/local/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/usr/local/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"/usr/local/share/cmake/Modules/FindThreads.cmake",
+			"/usr/local/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1000,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 671,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 747,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 235,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 10
+			},
+			{
+				"file" : 11,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 11,
+				"line" : 45,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"file" : 10,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 43,
+				"parent" : 19
+			},
+			{
+				"file" : 9,
+				"parent" : 20
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 36,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 23
+			},
+			{
+				"file" : 6,
+				"parent" : 24
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 13,
+				"parent" : 25
+			},
+			{
+				"file" : 5,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 712,
+				"parent" : 27
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 710,
+				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 672,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 31
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 174,
+				"parent" : 32
+			},
+			{
+				"file" : 13,
+				"parent" : 33
+			},
+			{
+				"command" : 11,
+				"file" : 13,
+				"line" : 35,
+				"parent" : 34
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 36
+			},
+			{
+				"file" : 12,
+				"parent" : 37
+			},
+			{
+				"command" : 9,
+				"file" : 12,
+				"line" : 238,
+				"parent" : 38
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 30,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 30,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/include"
+				},
+				{
+					"backtrace" : 30,
+					"isSystem" : true,
+					"path" : "/usr/local/include/qt6/QtCore"
+				},
+				{
+					"backtrace" : 30,
+					"isSystem" : true,
+					"path" : "/usr/local/include/qt6"
+				},
+				{
+					"backtrace" : 30,
+					"isSystem" : true,
+					"path" : "/usr/local/lib/qt6/mkspecs/freebsd-clang"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/qt6/QtWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/qt6/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					30,
+					30
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "SherTextpp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SherTextpp_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "SherTextpp::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/tmp"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib/qt6:/usr/local/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/lib/qt6/libQt6Widgets.so.6.9.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/local/lib/qt6/libQt6Gui.so.6.9.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/usr/local/lib/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/usr/local/lib/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/usr/local/lib/qt6/libQt6Core.so.6.9.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/usr/local/lib/qt6",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SherTextpp",
+	"nameOnDisk" : "SherTextpp",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				9
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				7
+			]
+		},
+		{
+			"name" : "Forms",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				5,
+				8
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/SherTextpp_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "shertext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "shertext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "shertext.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "SherTextpp_en_US.ts",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Resource.qrc",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/SherTextpp_autogen/include/ui_shertext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/SherTextpp_autogen/timestamp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/qrc_Resource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/SherTextpp_autogen/timestamp.rule",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/qrc_Resource.cpp.rule",
+			"sourceGroupIndex" : 5
+		}
+	],
+	"type" : "EXECUTABLE"
+}

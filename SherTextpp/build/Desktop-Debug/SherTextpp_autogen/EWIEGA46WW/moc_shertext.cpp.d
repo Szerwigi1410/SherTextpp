@@ -1,5 +1,5 @@
-/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/moc_shertext.cpp: /home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.h \
-  /home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h \
+/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/EWIEGA46WW/moc_shertext.cpp: /home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.h \
+  /home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h \
   /usr/include/assert.h \
   /usr/include/c++/v1/__algorithm/adjacent_find.h \
   /usr/include/c++/v1/__algorithm/all_of.h \

@@ -122,14 +122,25 @@ void shertext::on_actionPaste_triggered()
 void shertext::on_actionLicense_triggered()
 {
     QString SherTextLicense;
-    SherTextLicense = "BSD";
+    SherTextLicense = "BSD 2-Clause License";
+    SherTextLicense += "\n\n";
+    SherTextLicense += "Copyright (c) 2025, Szerwigi1410";
+    SherTextLicense += "\n\n";
+    SherTextLicense += "Redistribution and use in source and binary forms, with or without";
+    SherTextLicense += "modification, are permitted provided that the following conditions are met:";
+    SherTextLicense += "\n\n";
+    SherTextLicense += "1. Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.";
+    SherTextLicense += "\n\n";
+    SherTextLicense += "2. Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n\n";
+    SherTextLicense += "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.";
+
     QMessageBox::about(this, "License", SherTextLicense);
 }
 
 
 void shertext::on_actionSherText_Github_triggered()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/dangvd/crystal-remix-icon-theme"));
+    QDesktopServices::openUrl(QUrl("https://github.com/Szerwigi1410/SherTextpp"));
 }
 
 

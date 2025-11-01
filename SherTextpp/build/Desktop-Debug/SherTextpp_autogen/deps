@@ -1,13 +1,13 @@
 SherTextpp_autogen/timestamp: \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/CMakeLists.txt \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/Resource.qrc \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeCXXCompiler.cmake \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeSystem.cmake \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/main.cpp \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.cpp \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.h \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/CMakeLists.txt \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/Resource.qrc \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeCXXCompiler.cmake \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/3.31.9/CMakeSystem.cmake \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/SherTextpp_autogen/moc_predefs.h \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/main.cpp \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.cpp \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.h \
 	/usr/include/assert.h \
 	/usr/include/c++/v1/__algorithm/adjacent_find.h \
 	/usr/include/c++/v1/__algorithm/all_of.h \
@@ -1095,5 +1095,5 @@ SherTextpp_autogen/timestamp: \
 	/usr/local/share/cmake/Modules/Platform/Linker/FreeBSD-LLD.cmake \
 	/usr/local/share/cmake/Modules/Platform/Linker/GNU.cmake \
 	/usr/local/share/cmake/Modules/Platform/UnixPaths.cmake \
-	/home/oliwier7/Documents/QT_stuff/SherTextpp/shertext.ui \
+	/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/shertext.ui \
 	/usr/local/bin/cmake

@@ -44,7 +44,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/local/bin/cmake --regenerate-during-build -S/home/oliwier7/Documents/QT_stuff/SherTextpp -B/home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug
+  command = /usr/local/bin/cmake --regenerate-during-build -S/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp -B/home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug
   description = Re-running CMake...
   generator = 1
 
@@ -53,7 +53,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = /usr/local/bin/cmake -P /home/oliwier7/Documents/QT_stuff/SherTextpp/build/Desktop-Debug/CMakeFiles/VerifyGlobs.cmake
+  command = /usr/local/bin/cmake -P /home/oliwier7/Documents/Pulled_gits/SherTextpp/SherTextpp/build/Desktop-Debug/CMakeFiles/VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
