@@ -46,6 +46,8 @@ private slots:
 
     void on_actionQuit_triggered();
 
+    void on_actionSettings_triggered();
+
 private:
     Ui::shertext *ui;
     QString FilePath;

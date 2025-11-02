@@ -53,7 +53,8 @@ template <> constexpr inline auto shertext::qt_create_metaobjectdata<qt_meta_tag
         "on_actionLicense_triggered",
         "on_actionSherText_Github_triggered",
         "on_actionCristal_icons_Github_triggered",
-        "on_actionQuit_triggered"
+        "on_actionQuit_triggered",
+        "on_actionSettings_triggered"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -85,6 +86,8 @@ template <> constexpr inline auto shertext::qt_create_metaobjectdata<qt_meta_tag
         QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_actionQuit_triggered'
         QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_actionSettings_triggered'
+        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -122,6 +125,7 @@ void shertext::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 11: _t->on_actionSherText_Github_triggered(); break;
         case 12: _t->on_actionCristal_icons_Github_triggered(); break;
         case 13: _t->on_actionQuit_triggered(); break;
+        case 14: _t->on_actionSettings_triggered(); break;
         default: ;
         }
     }
@@ -147,14 +151,14 @@ int shertext::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 14)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 14;
+        _id -= 15;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 14)
+        if (_id < 15)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 14;
+        _id -= 15;
     }
     return _id;
 }

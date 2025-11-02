@@ -11,5 +11,8 @@
         <file>icons/about.png</file>
         <file>icons/paste.png</file>
         <file>icons/system-shutdown.png</file>
+        <file>icons/kapptemplate.png</file>
+        <file>icons/ibus-setup.png</file>
+        <file>icons/galternatives.png</file>
     </qresource>
 </RCC>

@@ -163,3 +163,9 @@ void shertext::on_actionQuit_triggered()
     }
 }
 
+
+void shertext::on_actionSettings_triggered()
+{
+    QMessageBox::information(this, "Settings", "Comming soon!");
+}
+

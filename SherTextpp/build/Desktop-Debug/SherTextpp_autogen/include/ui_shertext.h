@@ -40,6 +40,7 @@ public:
     QAction *actionSherText_Github;
     QAction *actionCristal_icons_Github;
     QAction *actionQuit;
+    QAction *actionSettings;
     QWidget *centralwidget;
     QHBoxLayout *horizontalLayout;
     QTextEdit *textEdit;
@@ -117,6 +118,11 @@ public:
         QIcon icon11;
         icon11.addFile(QString::fromUtf8(":/rec/icons/system-shutdown.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
         actionQuit->setIcon(icon11);
+        actionSettings = new QAction(shertext);
+        actionSettings->setObjectName("actionSettings");
+        QIcon icon12;
+        icon12.addFile(QString::fromUtf8(":/rec/icons/galternatives.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        actionSettings->setIcon(icon12);
         centralwidget = new QWidget(shertext);
         centralwidget->setObjectName("centralwidget");
         horizontalLayout = new QHBoxLayout(centralwidget);
@@ -162,6 +168,8 @@ public:
         menuEdit->addAction(actionCut);
         menuEdit->addAction(actionCopy);
         menuEdit->addAction(actionPaste);
+        menuEdit->addSeparator();
+        menuEdit->addAction(actionSettings);
 
         retranslateUi(shertext);
 
@@ -215,6 +223,7 @@ public:
         actionSherText_Github->setText(QCoreApplication::translate("shertext", "SherText++ Github", nullptr));
         actionCristal_icons_Github->setText(QCoreApplication::translate("shertext", "Crystal icons Github", nullptr));
         actionQuit->setText(QCoreApplication::translate("shertext", "Quit", nullptr));
+        actionSettings->setText(QCoreApplication::translate("shertext", "Settings", nullptr));
         menuFile->setTitle(QCoreApplication::translate("shertext", "File", nullptr));
         menuHelp->setTitle(QCoreApplication::translate("shertext", "Help", nullptr));
         menuEdit->setTitle(QCoreApplication::translate("shertext", "Edit", nullptr));
