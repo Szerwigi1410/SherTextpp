@@ -152,6 +152,14 @@ void shertext::on_actionCristal_icons_Github_triggered()
 
 void shertext::on_actionQuit_triggered()
 {
-    QApplication::quit();
+    QMessageBox::StandardButton reply;
+    reply = QMessageBox::question(this, "Quitting", "Are you sure?",
+                                  QMessageBox::Yes|QMessageBox::No);
+    if (reply == QMessageBox::Yes) {
+        qDebug() << "Yes was clicked";
+        QApplication::quit();
+    } else {
+        qDebug() << "Yes was *not* clicked";
+    }
 }
 
