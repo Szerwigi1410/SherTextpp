@@ -67,6 +67,7 @@ void shertext::on_actionAbout_SherText_triggered()
     aboutSherTextpp = "SherText++ made by Szerwigi1410\n";
     aboutSherTextpp += "Written in C++ and Qt on FreeBSD 14.3!\n\n";
     aboutSherTextpp += "See \"License\" to read about the license";
+    aboutSherTextpp += "\n(The logo is beautiful i know)";
     QMessageBox::about(this, "About SherText++" ,aboutSherTextpp);
 }
 

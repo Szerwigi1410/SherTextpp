@@ -55,7 +55,8 @@ public:
         if (shertext->objectName().isEmpty())
             shertext->setObjectName("shertext");
         shertext->resize(814, 649);
-        QIcon icon(QIcon::fromTheme(QIcon::ThemeIcon::DriveOptical));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/rec/icons/SherTextpplogo.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
         shertext->setWindowIcon(icon);
         actionNew = new QAction(shertext);
         actionNew->setObjectName("actionNew");

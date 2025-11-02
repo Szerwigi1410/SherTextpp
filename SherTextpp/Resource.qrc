@@ -14,5 +14,6 @@
         <file>icons/kapptemplate.png</file>
         <file>icons/ibus-setup.png</file>
         <file>icons/galternatives.png</file>
+        <file>icons/SherTextpplogo.png</file>
     </qresource>
 </RCC>

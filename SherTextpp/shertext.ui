@@ -14,7 +14,8 @@
    <string>SherText</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="QIcon::ThemeIcon::DriveOptical"/>
+   <iconset resource="Resource.qrc">
+    <normaloff>:/rec/icons/SherTextpplogo.png</normaloff>:/rec/icons/SherTextpplogo.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
