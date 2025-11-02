@@ -18,6 +18,7 @@
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
@@ -43,6 +44,7 @@ public:
     QAction *actionSettings;
     QWidget *centralwidget;
     QHBoxLayout *horizontalLayout;
+    QTextBrowser *textBrowser;
     QTextEdit *textEdit;
     QMenuBar *menubar;
     QMenu *menuFile;
@@ -54,7 +56,7 @@ public:
     {
         if (shertext->objectName().isEmpty())
             shertext->setObjectName("shertext");
-        shertext->resize(814, 649);
+        shertext->resize(816, 648);
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/rec/icons/SherTextpplogo.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
         shertext->setWindowIcon(icon);
@@ -128,6 +130,11 @@ public:
         centralwidget->setObjectName("centralwidget");
         horizontalLayout = new QHBoxLayout(centralwidget);
         horizontalLayout->setObjectName("horizontalLayout");
+        textBrowser = new QTextBrowser(centralwidget);
+        textBrowser->setObjectName("textBrowser");
+
+        horizontalLayout->addWidget(textBrowser);
+
         textEdit = new QTextEdit(centralwidget);
         textEdit->setObjectName("textEdit");
 
@@ -136,7 +143,7 @@ public:
         shertext->setCentralWidget(centralwidget);
         menubar = new QMenuBar(shertext);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 814, 21));
+        menubar->setGeometry(QRect(0, 0, 816, 21));
         menuFile = new QMenu(menubar);
         menuFile->setObjectName("menuFile");
         menuHelp = new QMenu(menubar);
